@@ -7,19 +7,23 @@
 .grid-container {
   padding-right: 0.625rem;
   padding-left: 0.625rem;
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
-  max-width: 90rem;
+  max-width: 75rem;
   margin-left: auto;
   margin-right: auto; }
+  @media print, screen and (min-width: 40em) {
+    .grid-container {
+      padding-right: 0.625rem;
+      padding-left: 0.625rem; } }
   .grid-container.fluid {
-    padding-right: 0.625rem;
-    padding-left: 0.625rem;
     padding-right: 0.625rem;
     padding-left: 0.625rem;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
+    @media print, screen and (min-width: 40em) {
+      .grid-container.fluid {
+        padding-right: 0.625rem;
+        padding-left: 0.625rem; } }
   .grid-container.full {
     padding-right: 0;
     padding-left: 0;
