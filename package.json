@@ -1,11 +1,22 @@
 {
-  "dependencies": {
-    "foundation-sites": "^6.6.3"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-clean": "^0.4.0",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^6.0.0"
-  }
+	"name": "@kelvinwongg/foundation-custom",
+	"description": "Zurb Foundation customization and usage in Nodejs projects.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "gulp",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Kelvin Wong <kelvinwongg@yahoo.com.hk> (http://kelvinwong.hk/)",
+	"repository": "github:kelvinwongg/foundation-custom",
+	"license": "ISC",
+	"dependencies": {
+		"foundation-sites": "^6.6.3"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-clean": "^0.4.0",
+		"gulp-sass": "^4.1.0",
+		"node-sass": "^6.0.0"
+	}
 }
