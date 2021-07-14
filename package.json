@@ -1,7 +1,7 @@
 {
 	"name": "@kelvinwongg/foundation-custom",
 	"description": "Zurb Foundation customization and usage in Nodejs projects.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"scripts": {
 		"build": "gulp",
